@@ -9,7 +9,7 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 <p>Dataset is the images of the individuals we want to differentiate on the basis of their faces. Create a folder for dataset and create sub-folders in it and to each sub-folder give the name of an individual.These names will be the labels in our program. Now each sub-folder represents a person. Store the images of individuals in their coressponding folders. Every folders must have atleast 25-30 images for training. </p>
 
 <h4>Feature Extraction:</h4>
-<p> After preparing and arranging dataset as mentioned above, we need to extract features from images and their labels as well. For that we will use  **feature extractor.py** . This program will provide us 3 files. </p>
+<p> After preparing and arranging dataset as mentioned above, we need to extract features from images and their labels as well. For that we will use  <b>feature extractor.py</b> . This program will provide us 3 files. </p>
 1- **labels.npy** </br>
 2- **images.npy** </br>
 3- **encoded_labels.npy** </br>
