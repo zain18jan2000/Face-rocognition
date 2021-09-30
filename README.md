@@ -13,4 +13,5 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 1- <b>labels.npy</b> </br>
 2- <b>images.npy</b> </br>
 3- <b>encoded_labels.npy</b> </br>
-<p>labels.npy contains all the labels, images.npy contains the extracted features of images and encoded_labels.npy also contains labels but in encoded form.  </p>
+</br>
+<p><b>labels.npy</b> contains all the labels, <b>images.npy</b> contains the extracted features of images and <b>encoded_labels.npy</b> also contains labels but in encoded form.  </p>
