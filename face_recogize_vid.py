@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(r'D:\my files\arduino\respberry pi setup\Lesson # 1 (Normal Setup of Pi).mp4')
+path = input("Enter the complete path of video file. Please use '/' instead of '\' when typing in directory path:")
+cap = cv2.VideoCapture(path)
 
 # # using CascadeClassifier to detect face
 classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
