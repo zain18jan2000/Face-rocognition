@@ -15,9 +15,9 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 3- <b>encoded_labels.npy</b> </br>
 </br>
 <p><b>labels.npy</b> contains all the labels, <b>images.npy</b> contains the extracted features of images and <b>encoded_labels.npy</b> also contains labels but in encoded form.  </p><br>
-<br>
+
 <h4>Training:</h4>
 <p>After preparing the dataset for training we will train a built in model of OpenCV for face recognition. For traing we will use <b>train_reconizer.py</b>. This python program requires those 3 files which were created in the previous step. Make sure that those 3 files and <b>train_reconizer.py</b> are in the same folder. When we will execute <b>train_reconizer.py</b>, it will provide us file named as <b>face_recognize.yml</b> which is a trained model<p>  
-<br>
+
 <h4>Recognizing faces:</h4>
 <p>After training the face recognition model we can now use it to recognize faces. We have 2 program to use this trained model. <b>face_recognize_pic.py</b> which is basically a simple web based program to recognize faces from images and <b>face_recognize_vid.py</b> which is for recognizing faces in videos. Make sure that these programes and <b>face_recognize.yml</b> are in the same folder.</p>
