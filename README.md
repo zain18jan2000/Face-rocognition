@@ -10,7 +10,7 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 
 <h4>Feature Extraction:</h4>
 <p> After preparing and arranging dataset as mentioned above, we need to extract features from images and their labels as well. For that we will use  <b>feature extractor.py</b> . This program will provide us 3 files. </p>
-1- **labels.npy** </br>
-2- **images.npy** </br>
-3- **encoded_labels.npy** </br>
+1- <b>labels.npy</b> </br>
+2- <b>images.npy</b> </br>
+3- <b>encoded_labels.npy</b> </br>
 <p>labels.npy contains all the labels, images.npy contains the extracted features of images and encoded_labels.npy also contains labels but in encoded form.  </p>
