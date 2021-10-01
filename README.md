@@ -21,3 +21,9 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 
 <h4>Recognizing faces:</h4>
 <p>After training the face recognition model we can now use it to recognize faces. We have 2 program to use this trained model. <b>face_recognize_pic.py</b> which is basically a simple web based program to recognize faces from images and <b>face_recognize_vid.py</b> which is for recognizing faces in videos. Make sure that these programes and <b>face_recognize.yml</b> are in the same folder.</p>
+
+<h4>Limitations:</h4>
+<p>
+The face recognizing program we have implemented can be used only for single person images. 
+The model accuracy will increase if trained with large number of images but this method of training the model can not be used for very large datasets.
+</p>
