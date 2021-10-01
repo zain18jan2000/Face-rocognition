@@ -24,6 +24,6 @@ Implementation of Face recognizer with OpenCV in Python<br/>
 
 <h4>Limitations:</h4>
 <p>
-The face recognizing program we have implemented can be used only for single person images. 
+The face recognizing program we have implemented can be used only for single person images. <br>
 The model accuracy will increase if trained with large number of images but this method of training the model can not be used for very large datasets.
 </p>
